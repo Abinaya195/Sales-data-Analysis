@@ -1,0 +1,37 @@
+===== Student Data Analysis System =====
+
+Dataset Preview:
+   StudentID               Name  Age  ...   Department   GPA  GraduationYear
+0       3336       David Palmer   19  ...  Mathematics  3.16            2026
+1       8774       Andrew Roach   23  ...    Chemistry  3.75            2027
+2       1396  Jonathan Gonzalez   22  ...      Physics  2.95            2027
+3       6716     Kenneth Morrow   24  ...      Physics  3.55            2029
+4       8830   Kaitlyn Martinez   18  ...    Chemistry  2.29            2025
+
+[5 rows x 7 columns]
+
+Average GPA:
+3.0278500000000004
+
+Top Student:
+StudentID                      7637
+Name                      Peter Day
+Age                              19
+Email             smaynard@cole.com
+Department              Mathematics
+GPA                            3.99
+GraduationYear                 2029
+Name: 152, dtype: object
+
+Students with GPA above 3.5:
+
+
+Department-wise Student Count:
+Department
+Physics             51
+Chemistry           46
+Computer Science    46
+Mathematics         30
+Biology             27
+Name: count, dtype: int64
+>>> 
